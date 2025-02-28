@@ -1,4 +1,4 @@
-#Instalar o Firebase CLI (se ainda não tiver)
+# Instalar o Firebase CLI (se ainda não tiver)
 Se ainda não instalou o Firebase CLI no seu computador, instale com:
 ```sh
 npm install -g firebase-tools
@@ -8,7 +8,7 @@ Depois, faça login no Firebase:
 firebase login
 ```
 
-#Inicializar as Cloud Functions no Projeto
+# Inicializar as Cloud Functions no Projeto
 1.	No terminal, vá até a pasta do seu projeto (ou crie uma nova pasta para as funções):
 mkdir meu-projeto-functions
 cd meu-projeto-functions
@@ -21,7 +21,7 @@ o	Escolha a linguagem: JavaScript ou TypeScript.
 o	Deseja usar ESLint? (Opcional, escolha Sim ou Não).
 o	Baixar dependências automaticamente? → Escolha Sim.
 ________________________________________
-#Escrever e Implantar uma Função
+# Escrever e Implantar uma Função
 Agora que o Cloud Functions está ativado, podemos criar e implantar uma função.
 1.	Abra o arquivo index.js dentro da pasta functions e adicione um exemplo de função HTTP:
 javascript
